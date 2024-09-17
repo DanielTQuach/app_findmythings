@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="viewAssetPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewAssetController">
+   <children>
+      <AnchorPane minWidth="600.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="72.0" layoutX="-1.0" layoutY="308.0" stroke="TRANSPARENT" strokeType="INSIDE" width="402.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="-1.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="0.34123222748815163" startX="0.1563981042654028" startY="0.4454976303317536">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6624000072479248" green="0.9599999785423279" blue="0.9302399754524231" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.006711409395973154">
+                           <color>
+                              <Color red="0.6624000072479248" green="0.9599999785423279" blue="0.9302399754524231" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.5060975609756098">
+                           <color>
+                              <Color red="0.5519999861717224" green="0.9200000166893005" blue="0.8770666718482971" opacity="0.27099236845970154" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.5519999861717224" green="0.9200000166893005" blue="0.8709333539009094" opacity="0.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="82.0" layoutY="226.0" stroke="TRANSPARENT" strokeType="INSIDE" width="402.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-2.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="0.34123222748815163" startX="0.5450236966824644" startY="0.8957345971563981">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6624000072479248" green="0.9599999785423279" blue="0.9302399754524231" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.006711409395973154">
+                           <color>
+                              <Color red="0.6624000072479248" green="0.9599999785423279" blue="0.9302399754524231" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.6855868390898672">
+                           <color>
+                              <Color red="0.6624000072479248" green="0.9599999785423279" blue="0.9302399754524231" opacity="0.3893129825592041" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.5519999861717224" green="0.9200000166893005" blue="0.8709333539009094" opacity="0.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="154.0" layoutY="72.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.6350710900473933" startY="0.7251184834123223">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.5568627715110779" green="0.929411768913269" blue="0.8980392217636108" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.006711409395973154">
+                           <color>
+                              <Color red="0.5568627715110779" green="0.929411768913269" blue="0.8980392217636108" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.9697986577181208">
+                           <color>
+                              <Color red="0.5519999861717224" green="0.9200000166893005" blue="0.8831999897956848" opacity="0.4351145029067993" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.5519999861717224" green="0.9200000166893005" blue="0.8831999897956848" opacity="0.4351145029067993" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <TextField fx:id="SearchField" layoutX="109.0" layoutY="71.0" prefHeight="26.0" prefWidth="402.0" promptText="Keywords" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="72.0" layoutX="-152.0" layoutY="-9.0" stroke="TRANSPARENT" strokeType="INSIDE" width="752.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.04265402843601884" startY="0.7251184834123223">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.46296295523643494" green="1.0" blue="0.7762345671653748" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.006711409395973154">
+                           <color>
+                              <Color red="0.46296295523643494" green="1.0" blue="0.7762345671653748" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.936241610738255">
+                           <color>
+                              <Color red="0.09239999949932098" green="0.4311999976634979" blue="0.7699999809265137" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.09239999949932098" green="0.4311999976634979" blue="0.7699999809265137" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <Button layoutX="14.0" layoutY="368.0" mnemonicParsing="false" onAction="#showHomePageOp" prefHeight="18.0" prefWidth="118.0" text="Back to Homepage" />
+            <Label layoutX="123.0" layoutY="6.0" prefHeight="65.0" prefWidth="161.0" text="Assets" textFill="#176ec6">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="46.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="10.0" prefHeight="59.0" prefWidth="102.0" text="View" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Avenir Next Demi Bold" size="41.0" />
+               </font>
+            </Label>
+            <Polygon layoutX="548.0" layoutY="5.0" points="-50.0, 40.0, -22.628604888916016, 23.23434066772461, -48.35805892944336, 2.7294530868530273" rotate="90.0" stroke="#c2868600" strokeLineJoin="BEVEL" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="0.014218009478672985" endY="1.0" startX="0.5260663507109005" startY="0.028436018957346043">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8913580179214478" blue="0.18518517911434174" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.2010233849287033" green="0.7894737124443054" blue="0.22063839435577393" opacity="0.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Polygon>
+            <Polygon layoutX="568.0" layoutY="14.0" points="-28.394601821899414, 44.3790283203125, 20.96292495727539, 42.19210433959961, -7.500977516174316, 3.069302558898926" rotate="90.0" stroke="#c2868600" strokeLineJoin="BEVEL" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="0.014218009478672985" endY="1.0" startX="0.5260663507109005" startY="0.028436018957346043">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8913580179214478" blue="0.18518517911434174" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.2010233849287033" green="0.7894737124443054" blue="0.22063839435577393" opacity="0.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Polygon>
+            <Label layoutX="14.0" layoutY="75.0" text="Search Assets:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="search" layoutX="517.0" layoutY="72.0" mnemonicParsing="false" onAction="#search" prefHeight="25.0" prefWidth="53.0" text="Search" />
+            <VBox fx:id="assetManipBox" layoutX="23.0" layoutY="100.0" prefHeight="259.0" prefWidth="562.0">
+               <children>
+                  <TableView fx:id="AssetTableView" prefHeight="254.0" prefWidth="573.0">
+                    <columns>
+                      <TableColumn fx:id="idColumn" prefWidth="62.0" text="ID" />
+                      <TableColumn fx:id="locationColumn" prefWidth="204.0" text="Name" />
+                        <TableColumn fx:id="assetLocCol" prefWidth="146.0" text="Location" />
+                        <TableColumn fx:id="categoryColumn" prefWidth="160.0" text="Category" />
+                    </columns>
+                  </TableView>
+                  <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                    <buttons>
+                      <Button fx:id="editAsset" mnemonicParsing="false" onAction="#edit" text="Edit" />
+                        <Button fx:id="deleteAsset" mnemonicParsing="false" onAction="#delete" text="Delete" />
+                    </buttons>
+                  </ButtonBar>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
